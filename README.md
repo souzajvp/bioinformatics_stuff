@@ -1,1 +1,3 @@
 # bioinformatics_stuff
+
+Some useful scripts, resources or tutorials to work with bioinformatics...
