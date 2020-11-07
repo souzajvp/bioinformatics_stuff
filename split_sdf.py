@@ -1,3 +1,22 @@
+### USAGE ###
+# Executing this python script will prompt the user two times for inputs:
+# 1. First, type the .sdf file name you want to split (without the .sdf extension);
+# 2. Second, type the ammount of molecules you want to split into each file;
+
+# The script will result in a number of files having an additional "_n" after the original filename prefix.
+
+### Example: 
+##### input file name                 = molecules.sdf
+##### number of molecules to split    = 100.000
+##### n. of mol. in the original file = 300.000
+##### OUTPUT = three files, namely "molecules_0.sdf", "molecules_1.sdf", "molecules_2.sdf" with 100.000 molecules in each of them.
+
+# At the end of splitting, the script will print:
+# 1. The name of each output file and the ammount of molecules on them;
+# 2. The ammount of molecules on the original input file;
+# 3. A summary of the operation
+
+
 ########################################################
 f = input('Input file name (without extension):')
 split_number = int(input('Desired number of molecules in each file:')) 
